@@ -23,17 +23,17 @@ Currently completing a PhD dissertation at Boston University. Exploring part-tim
 | Metric | Value | Source |
 |--------|-------|--------|
 | Max HR | 181 bpm | 4-mile race observed |
-| LTHR | 168 bpm | Race-derived, conservatively set |
-| MAF HR ceiling | 130–133 bpm | MAF formula, applied in practice |
-| MAF pace | ~9:40/mile | 10-mile aerobic run benchmark |
+| LTHR | 166 bpm | Intervals.icu live value |
+| MAF HR ceiling | 136 bpm | Current applied value |
+| MAF pace | ~9:20/mile | Benchmark at prior MAF ceiling; may improve with 136 bpm ceiling |
 | Running FTP | ~321–325w | 95% of 338w avg over ~29 min race (Stryd) |
 | Cycling FTP | ~250w | Estimated; cycling is background activity only |
 | Resting HR | 49 bpm | Apple Watch morning average |
 | HRV baseline | ~72ms | Apple Watch |
 
-**Zone framework:** 80/20 polarized model. Zone 1 ceiling anchored to MAF (130–133 bpm). Quality sessions reserved for threshold and race-specific efforts only.
+**Zone framework:** 80/20 polarized model. Zone 1 ceiling anchored to MAF (136 bpm).
 
-**Zone preference:** HR-primary for running analysis. Stryd power used as secondary anchor (IF, NP, variability index).
+**Zone preference:** HR-primary for running analysis. Pace zones secondary.
 
 ---
 
@@ -50,7 +50,7 @@ Currently completing a PhD dissertation at Boston University. Exploring part-tim
   - Saturday: Occasionally replaced by easy social ride (flexible recovery substitute)
 - **Indoor:** Garage treadmill — used for inclined hill repeats
 - **Outdoor:** Primary training environment
-- **Devices:** Apple Watch (HR, HRV, RHR), Stryd (running power)
+- **Devices:** Apple Watch (HR, HRV, RHR)
 - **Platform:** Intervals.icu
 
 ---
@@ -60,8 +60,7 @@ Currently completing a PhD dissertation at Boston University. Exploring part-tim
 | Session | Pace | HR | Decoupling | Notes |
 |---------|------|----|------------|-------|
 | 4-mile race | 7:11/mi avg (28:47) | Avg ~170 mi 1–3.5, max 181 | — | Negative split; LTHR anchor |
-| 10-mile aerobic | 10:31/mi | 133 bpm avg | –4.1% | Excellent aerobic efficiency |
-| 30-min tempo block | 7:27/mi | 157 bpm avg | 0.7% | IF 1.034; strong aerobic economy signal |
+| 36-min tempo block | 7:29/mi GAP | 155 bpm avg | -5.9% |
 | Long run | — | — | — | 14 miles completed |
 
 ---
@@ -132,7 +131,7 @@ Currently completing a PhD dissertation at Boston University. Exploring part-tim
 ## Key Analytical Notes
 
 1. **Threshold miscalibration signal (March 2026):** 30-min tempo at 157 bpm / IF 1.034 indicates aerobic economy has improved — more watts per heartbeat than when FTP was originally set. FTP (~321–325w) appears correctly calibrated; HR-to-power relationship has shifted favorably.
-2. **Half marathon pacing:** Do not exceed 160 bpm through mile 6. Allow cardiac drift to bring HR naturally to 165–168 by miles 11–13. 7:20 target requires tight early-mile discipline.
+2. **Half marathon pacing:** Do not exceed 160 bpm through mile 6. Allow cardiac drift to bring HR naturally to 163–166 by miles 11–13. 7:20 target requires tight early-mile discipline.
 3. **Marathon build risk window:** Hip impingement is the primary injury flag. Monitor at 40–44 mi/week and on long runs beyond 16 miles. Any symptom escalation should trigger immediate ramp adjustment.
 4. **Aerobic base quality:** –4.1% decoupling on 10-miler at 133 bpm is a strong positive signal. Aerobic system is ahead of where MAF pace alone would suggest.
 5. **BQ math:** 3:03 = 6:59/mile average for 26.2 miles. Requires sustained output above current half marathon target pace. Feasible if the September build goes cleanly — not feasible if injury interrupts the block.
