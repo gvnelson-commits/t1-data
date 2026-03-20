@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T23:59:33.394193",
+  "generated_at": "2026-03-20T02:49:12.599819",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -464,64 +464,6 @@
           "max_hr": 133,
           "avg_cadence": 78.280304,
           "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i131622913",
-      "date": "2026-03-12",
-      "type": "Run",
-      "name": "Gold River / Rancho Cordova \u2022 RF6",
-      "interval_summary": [
-        "1x 9m1s 10:07",
-        "3x 9m 9:09",
-        "1x 6m1s 10:21"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "541s@125bpm81rpm",
-          "duration_secs": 541,
-          "avg_hr": 125,
-          "max_hr": 138,
-          "avg_cadence": 80.59519,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "540s@142bpm83rpm",
-          "duration_secs": 539,
-          "avg_hr": 140,
-          "max_hr": 149,
-          "avg_cadence": 82.703156,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "540s@142bpm83rpm",
-          "duration_secs": 541,
-          "avg_hr": 142,
-          "max_hr": 148,
-          "avg_cadence": 83.061,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "540s@142bpm83rpm",
-          "duration_secs": 540,
-          "avg_hr": 144,
-          "max_hr": 150,
-          "avg_cadence": 82.14629,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "361s@136bpm81rpm",
-          "duration_secs": 361,
-          "avg_hr": 136,
-          "max_hr": 145,
-          "avg_cadence": 81.1573,
-          "zone": 2
         }
       ]
     },
