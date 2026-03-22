@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T23:48:03.090153",
+  "generated_at": "2026-03-22T02:08:21.840807",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -241,80 +241,6 @@
           "max_hr": 161,
           "avg_cadence": 76.0,
           "zone": 4
-        }
-      ]
-    },
-    {
-      "activity_id": "i132077280",
-      "date": "2026-03-14",
-      "type": "Ride",
-      "name": "Gold River / Folsom",
-      "interval_summary": [
-        "1x 33m10s 90bpm",
-        "1x 1h58m 100bpm",
-        "1x 27m46s 101bpm",
-        "1x 9m35s 95bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1990s@90bpm",
-          "duration_secs": 1990,
-          "avg_hr": 90,
-          "max_hr": 141,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 30,
-          "avg_hr": 101,
-          "max_hr": 105,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "7127s@100bpm",
-          "duration_secs": 7127,
-          "avg_hr": 100,
-          "max_hr": 125,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 554,
-          "avg_hr": 88,
-          "max_hr": 113,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1666s@101bpm",
-          "duration_secs": 1666,
-          "avg_hr": 101,
-          "max_hr": 142,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 110,
-          "avg_hr": 94,
-          "max_hr": 100,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "575s@95bpm",
-          "duration_secs": 575,
-          "avg_hr": 95,
-          "max_hr": 115,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 343,
-          "avg_hr": 93,
-          "max_hr": 123,
-          "zone": 1
         }
       ]
     },
