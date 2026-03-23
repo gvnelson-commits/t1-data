@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T23:52:50.540059",
+  "generated_at": "2026-03-23T02:09:05.804085",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -130,117 +130,6 @@
           "max_hr": 132,
           "avg_cadence": 78.3,
           "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i132255166",
-      "date": "2026-03-15",
-      "type": "Run",
-      "name": "Gold River / Rancho Cordova \u2022 RLFF1",
-      "interval_summary": [
-        "1x 9m59s 9:55",
-        "8x 9m5s 9:00",
-        "1x 7m34s 7:33"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "599s@119bpm82rpm",
-          "duration_secs": 599,
-          "avg_hr": 119,
-          "max_hr": 136,
-          "avg_cadence": 81.85643,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 546,
-          "avg_hr": 137,
-          "max_hr": 144,
-          "avg_cadence": 83.18315,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 556,
-          "avg_hr": 140,
-          "max_hr": 145,
-          "avg_cadence": 83.29205,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 558,
-          "avg_hr": 142,
-          "max_hr": 146,
-          "avg_cadence": 83.665436,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 553,
-          "avg_hr": 140,
-          "max_hr": 146,
-          "avg_cadence": 81.40959,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 560,
-          "avg_hr": 140,
-          "max_hr": 147,
-          "avg_cadence": 82.69963,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 533,
-          "avg_hr": 143,
-          "max_hr": 147,
-          "avg_cadence": 84.3617,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 527,
-          "avg_hr": 143,
-          "max_hr": 150,
-          "avg_cadence": 84.46094,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "545s@141bpm84rpm",
-          "duration_secs": 526,
-          "avg_hr": 144,
-          "max_hr": 152,
-          "avg_cadence": 86.1654,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "454s@159bpm86rpm",
-          "duration_secs": 454,
-          "avg_hr": 159,
-          "max_hr": 163,
-          "avg_cadence": 85.82159,
-          "zone": 4
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 9,
-          "avg_hr": 161,
-          "max_hr": 161,
-          "avg_cadence": 76.0,
-          "zone": 4
         }
       ]
     },
