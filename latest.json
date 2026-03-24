@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-24T22:30:33.645182",
+    "last_updated": "2026-03-24T23:04:12.260788",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -151,7 +151,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-18",
-    "age_days": 5,
+    "age_days": 6,
     "total_months": 34,
     "history_confidence": "high"
   },
@@ -396,7 +396,7 @@
           "hard_sessions_planned": 3,
           "race_proximity": 32,
           "next_week_load": 1.23,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -430,7 +430,7 @@
     "p_max": 298,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-24T22:30:33.643879",
+    "calculation_timestamp": "2026-03-24T23:04:12.259482",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -962,6 +962,18 @@
       "description": "- Zone 1 45m Z1 HR"
     },
     {
+      "id": 100523940,
+      "date": "2026-03-25",
+      "name": "TD Ramp Test (Automatic)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 135,
+      "duration_hours": 0.52,
+      "duration_formatted": "31m",
+      "workout_summary": null,
+      "description": "This is the official automatic TrainerDay ramp test. Inside our mobile Training App this will calculate your FTP automatically.This test works best if your FTP is close to right although in most cases if you dont know your current FTP and setting it to 100 if you are just starting cycling or 150 if you are doing a bit more should be fine. Just keep pedaling until you cant pedal any more. f you are using another app or device then our mobile app just multiply the last minute average by 0.75.  \n\nhttps://app.trainerday.com/workouts/trainerday-ramp-test\n\n- Welcome, this is an automated ramp test. 5m 40% \n- 1m 50% \n- 1m 60% \n- 1m 70% \n- 1m 80% \n- 1m 90% \n- Around now is about when people start feeling like it is work but... 1m 100% \n- 1m 110% \n- 1m 120% \n- Ok now is when it likely starts getting harder.  Concentrate and enjoy your last few minutes. 1m 130% \n- The end is coming... Keep going you got this 1m 140% \n- 1m 150% \n- Wow... keep it up.  You likely just increased your FTP. 1m 160% \n- 1m 170% \n- 1m 180% \n- If you are getting this far.  Your FTP was set too low to start. 1m 190% \n- It will keep going up even though you can't see it. 1m 200% \n- 1m 210% \n- If you still have a 2 or 3 steps you can do, you might want to stop now.  Set your FTP to 225W and take the test again.  Sorry 1m 220% \n- 1m 230% \n- 1m 240% \n- Sorry if you got this far but you likely need to retake it starting with your FTP being 250 watts.  You might want to rest before testing again. 1m 250% \n- 5m 40%"
+    },
+    {
       "id": 95817241,
       "date": "2026-03-26",
       "name": "RCl4",
@@ -1379,12 +1391,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 34,
+    "attempted": 35,
     "success": 7,
     "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 27
+    "bail_no_match": 28
   },
   "weekly_summary": {
     "total_training_hours": 2.3,
