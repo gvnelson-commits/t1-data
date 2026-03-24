@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T23:47:48.899234",
+  "generated_at": "2026-03-24T02:00:41.481580",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -66,70 +66,6 @@
           "avg_hr": 136,
           "max_hr": 136,
           "zone": 2
-        }
-      ]
-    },
-    {
-      "activity_id": "i132612089",
-      "date": "2026-03-16",
-      "type": "Run",
-      "name": "Gold River / Fair Oaks \u2022 RF6",
-      "interval_summary": [
-        "5x 9m15s 9:51"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "555s@137bpm81rpm",
-          "duration_secs": 597,
-          "avg_hr": 128,
-          "max_hr": 145,
-          "avg_cadence": 80.34944,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "555s@137bpm81rpm",
-          "duration_secs": 539,
-          "avg_hr": 138,
-          "max_hr": 148,
-          "avg_cadence": 81.94249,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "555s@137bpm81rpm",
-          "duration_secs": 541,
-          "avg_hr": 142,
-          "max_hr": 157,
-          "avg_cadence": 82.25878,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "555s@137bpm81rpm",
-          "duration_secs": 555,
-          "avg_hr": 140,
-          "max_hr": 149,
-          "avg_cadence": 81.629425,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "555s@137bpm81rpm",
-          "duration_secs": 541,
-          "avg_hr": 138,
-          "max_hr": 146,
-          "avg_cadence": 81.03512,
-          "zone": 2
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 17,
-          "avg_hr": 131,
-          "max_hr": 132,
-          "avg_cadence": 78.3,
-          "zone": 1
         }
       ]
     },
