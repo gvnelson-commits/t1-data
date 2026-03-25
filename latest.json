@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-25T20:21:38.137327",
+    "last_updated": "2026-03-25T21:02:06.248752",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -128,7 +128,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -4.7
+        "value": 10.0
       }
     },
     "signal_summary": {
@@ -187,10 +187,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.26,
-      "atl": 43.93,
-      "tsb": -4.67,
-      "ramp_rate": -0.64,
+      "ctl": 36.1,
+      "atl": 26.09,
+      "tsb": 10.01,
+      "ramp_rate": -3.79,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -410,11 +410,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.77,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 2.61,
+          "hard_sessions_planned": 5,
           "race_proximity": 31,
           "next_week_load": 1.23,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -448,7 +448,7 @@
     "p_max": 441,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-25T20:21:38.135998",
+    "calculation_timestamp": "2026-03-25T21:02:06.247026",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -466,7 +466,7 @@
       "id": "i134713433",
       "date": "2026-03-25T07:58:51",
       "type": "VirtualRide",
-      "name": "FTP Ramp Test - 240w",
+      "name": "TD Ramp Test (Automatic)",
       "duration_hours": 0.34,
       "distance_km": 9.9,
       "tss": 24,
@@ -992,6 +992,30 @@
       "description": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n\n4x\n- Zone 3 10m Z4 HR\n- Zone 1 3m Z1 HR\n\n- Zone 2 5m Z2 HR\n- Zone 1 5m Z1 HR"
     },
     {
+      "id": 100680214,
+      "date": "2026-03-26",
+      "name": "Base Training - Sweet Spot #2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": "5m @120W | 3m @156W | 2m @192W | 2m @204W | 1m @228W | 5m @96W | 2m @216W | 2m @220W | 2m @216W | 2m @225W | 2m @216W | 2m @220W | 3m @96W | 2m @216W | 2m @225W | 2m @216W | 2m @220W | 2m @216W | 2m @220W | 3m @96W | 2m @216W | 2\u00d72m @220W / 2m rec | 2m @225W | 5m @84W",
+      "description": "3x12-minute Sweet Spot efforts with 3-minute recoveries\n\nhttps://app.trainerday.com/workouts/base-training-sweet-spot-2-1\n\n- 5m 50% \n- 3m 65% \n- 2m 80% \n- 2m 85% \n- 1m 95% \n- 5m 40% \n- 2m 90% \n- 2m 92% \n- 2m 90% \n- 2m 94% \n- 2m 90% \n- 2m 92% \n- 3m 40% \n- 2m 90% \n- 2m 94% \n- 2m 90% \n- 2m 92% \n- 2m 90% \n- 2m 92% \n- 3m 40% \n- 2m 90% \n\n\n2x\n- 2m 92% \n- 2m 90% \n\n\n- 2m 94% \n- 5m ramp 40-30%"
+    },
+    {
+      "id": 100680308,
+      "date": "2026-03-26",
+      "name": "Seiler 4x8",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 76,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "5m @120W | 5m @182W | 2m @220W | 5m @120W | 4\u00d78m @220W / 4m rec | 10m @120W",
+      "description": "Treshold\n\nhttps://app.trainerday.com/workouts/seiler-4x8-1\n\n- 5m 50% \n- 5m 76% \n- 2m 92% \n- 5m 50% \n\n\n4x\n- 8m 92% \n- 4m 50% \n\n\n- 10m 50%"
+    },
+    {
       "id": 88334393,
       "date": "2026-03-27",
       "name": "RRe6",
@@ -1005,7 +1029,7 @@
     },
     {
       "id": 88334397,
-      "date": "2026-03-27",
+      "date": "2026-03-28",
       "name": "RLI6",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -1014,18 +1038,6 @@
       "duration_formatted": "47m",
       "workout_summary": "2 \u00d7 5m | 4\u00d75m / 3m rec | 5m",
       "description": "- Zone 1 5m Z1 pace\n- Zone 2 5m Z2 pace\n\n4x\n- Zone 4 5m Z6 pace\n- Zone 1 3m Z1 pace\n\n- Zone 1 5m Z1 pace"
-    },
-    {
-      "id": 88334398,
-      "date": "2026-03-28",
-      "name": "RRe6",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 26,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "description": "- Zone 1 45m Z1 HR"
     },
     {
       "id": 88334399,
@@ -1397,12 +1409,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 34,
-    "success": 7,
-    "patternA": 7,
+    "attempted": 35,
+    "success": 9,
+    "patternA": 9,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 27
+    "bail_no_match": 26
   },
   "weekly_summary": {
     "total_training_hours": 1.9,
