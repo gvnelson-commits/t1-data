@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T17:59:02.766113",
+    "last_updated": "2026-03-29T18:56:58.592406",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -388,9 +388,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 1,
           "race_proximity": 27,
-          "next_week_load": null,
+          "next_week_load": 0.82,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.6
+          "plan_coverage_next_week": 2.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -423,7 +423,7 @@
     "p_max": 440,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-29T17:59:02.243243",
+    "calculation_timestamp": "2026-03-29T18:56:58.590901",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -1118,16 +1118,40 @@
       "description": ""
     },
     {
-      "id": 88334400,
+      "id": 101315919,
+      "date": "2026-03-30",
+      "name": "Pratfall 40",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 20,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "Z2 workouts focus on improving your aerobic fitness through easy-moderate intensity riding. These workouts should feel fairly easy but they are still a crucial component of your base fitness and overall strength.  Coach Jack believes that you should not go hard all the time in your cycling training. Instead you should take a more polarized approach which means keeping your easy rides easy and your hard rides hard. In addition your long endurance rides are equally as important as your HIIT workouts.  Z2 workouts are completed at 56-75% of your FTP which is far from the 80% FTP stress of Sweet Spot Threshold and VO2 Max intervals. Still harder than Z1 recovery rides Z2 workouts give you a little boost of intensity without accumulating too much stress. These workouts are perfect for the base training period when you dont have much HIIT training stress.Best for IndoorOutdoorThis is good for indoors because it takes concentration to try to stay in Zone 2. Indoor ERG makes it simple. Zone 2 workouts are a good place to practice other skills such as cadence exercises. Outside Z2 rides requires focus. It is good practice to do it outdoors and this workout can be done on flat or small inclines less than 1%. Outdoors minimizing distractions is also good.\n\nhttps://app.trainerday.com/workouts/pratfall-40-5\n\n- 7m 40% \n- 3m 60% \n- 5m 60% \n- 2m 63% \n- 5m 55% \n- 2m 62% \n- 5m 62% \n- 3m 61% \n- 3m 50% \n- 5m 40%"
+    },
+    {
+      "id": 95817338,
       "date": "2026-03-31",
-      "name": "RT4",
+      "name": "RT9",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 52,
-      "duration_hours": 0.73,
-      "duration_formatted": "44m",
+      "planned_tss": 76,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
-      "description": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n- Zone 3 24m Z4 HR\n- Zone 2 5m Z2 HR\n- Zone 1 5m Z1 HR"
+      "description": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n- Zone 3 40m Z4 HR\n- Zone 2 5m Z2 HR\n- Zone 1 5m Z1 HR"
+    },
+    {
+      "id": 101316338,
+      "date": "2026-03-31",
+      "name": "Base Training - Sweet Spot #2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": "5m @120W | 3m @156W | 2m @192W | 2m @204W | 1m @228W | 5m @96W | 2m @216W | 2m @220W | 2m @216W | 2m @225W | 2m @216W | 2m @220W | 3m @96W | 2m @216W | 2m @225W | 2m @216W | 2m @220W | 2m @216W | 2m @220W | 3m @96W | 2m @216W | 2\u00d72m @220W / 2m rec | 2m @225W | 5m @84W",
+      "description": "3x12-minute Sweet Spot efforts with 3-minute recoveries\n\nhttps://app.trainerday.com/workouts/base-training-sweet-spot-2-1\n\n- 5m 50% \n- 3m 65% \n- 2m 80% \n- 2m 85% \n- 1m 95% \n- 5m 40% \n- 2m 90% \n- 2m 92% \n- 2m 90% \n- 2m 94% \n- 2m 90% \n- 2m 92% \n- 3m 40% \n- 2m 90% \n- 2m 94% \n- 2m 90% \n- 2m 92% \n- 2m 90% \n- 2m 92% \n- 3m 40% \n- 2m 90% \n\n\n2x\n- 2m 92% \n- 2m 90% \n\n\n- 2m 94% \n- 5m ramp 40-30%"
     },
     {
       "id": 88334401,
@@ -1140,6 +1164,18 @@
       "duration_formatted": "40m",
       "workout_summary": null,
       "description": "- Zone 1 40m Z1 HR"
+    },
+    {
+      "id": 101316167,
+      "date": "2026-04-01",
+      "name": "Pratfall 40",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 20,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "Z2 workouts focus on improving your aerobic fitness through easy-moderate intensity riding. These workouts should feel fairly easy but they are still a crucial component of your base fitness and overall strength.  Coach Jack believes that you should not go hard all the time in your cycling training. Instead you should take a more polarized approach which means keeping your easy rides easy and your hard rides hard. In addition your long endurance rides are equally as important as your HIIT workouts.  Z2 workouts are completed at 56-75% of your FTP which is far from the 80% FTP stress of Sweet Spot Threshold and VO2 Max intervals. Still harder than Z1 recovery rides Z2 workouts give you a little boost of intensity without accumulating too much stress. These workouts are perfect for the base training period when you dont have much HIIT training stress.Best for IndoorOutdoorThis is good for indoors because it takes concentration to try to stay in Zone 2. Indoor ERG makes it simple. Zone 2 workouts are a good place to practice other skills such as cadence exercises. Outside Z2 rides requires focus. It is good practice to do it outdoors and this workout can be done on flat or small inclines less than 1%. Outdoors minimizing distractions is also good.\n\nhttps://app.trainerday.com/workouts/pratfall-40-5\n\n- 7m 40% \n- 3m 60% \n- 5m 60% \n- 2m 63% \n- 5m 55% \n- 2m 62% \n- 5m 62% \n- 3m 61% \n- 3m 50% \n- 5m 40%"
     },
     {
       "id": 88334402,
@@ -1166,6 +1202,18 @@
       "description": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n\n3x\n- Zone 4 5m Z6 HR\n- Zone 1 3m Z1 HR\n\n- Zone 1 5m Z1 HR"
     },
     {
+      "id": 101316298,
+      "date": "2026-04-03",
+      "name": "VO2 Max (4x4min@110%)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": "1m @96W | 1m @120W | 1m @144W | 1m @168W | 1m @192W | 1m @216W | 1m @240W | 1m @96W | 30s @264W | 2m30s @144W | 4\u00d74m @264W / 2m rec | 10m @120W",
+      "description": "Warm Up 4x4min at 110% of FTP 2 minute rest periods Cool Down.\n\nhttps://app.trainerday.com/workouts/vo2-max-4x4min-110\n\n- 1m 40% \n- 1m 50% \n- 1m 60% \n- 1m 70% \n- 1m 80% \n- 1m 90% \n- 1m 100% \n- 1m 40% \n- 30s 110% \n- 2m 30s 60% \n\n\n4x\n- 4m 110% \n- 2m 40% \n\n\n- 10m ramp 60-40%"
+    },
+    {
       "id": 88334404,
       "date": "2026-04-04",
       "name": "RRe5",
@@ -1178,16 +1226,16 @@
       "description": "- Zone 1 40m Z1 HR"
     },
     {
-      "id": 88334399,
-      "date": "2026-04-05",
-      "name": "RLFF2",
+      "id": 101316553,
+      "date": "2026-04-04",
+      "name": "Pratfall 40",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 109,
-      "duration_hours": 1.82,
-      "duration_formatted": "1h49m27s",
+      "sport_type": "Ride",
+      "planned_tss": 20,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
       "workout_summary": null,
-      "description": "- Zone 1 0.5mi Z1 HR\n- Zone 2 10.5mi Z2 HR\n- Zone 3 1mi Z4 HR"
+      "description": "Z2 workouts focus on improving your aerobic fitness through easy-moderate intensity riding. These workouts should feel fairly easy but they are still a crucial component of your base fitness and overall strength.  Coach Jack believes that you should not go hard all the time in your cycling training. Instead you should take a more polarized approach which means keeping your easy rides easy and your hard rides hard. In addition your long endurance rides are equally as important as your HIIT workouts.  Z2 workouts are completed at 56-75% of your FTP which is far from the 80% FTP stress of Sweet Spot Threshold and VO2 Max intervals. Still harder than Z1 recovery rides Z2 workouts give you a little boost of intensity without accumulating too much stress. These workouts are perfect for the base training period when you dont have much HIIT training stress.Best for IndoorOutdoorThis is good for indoors because it takes concentration to try to stay in Zone 2. Indoor ERG makes it simple. Zone 2 workouts are a good place to practice other skills such as cadence exercises. Outside Z2 rides requires focus. It is good practice to do it outdoors and this workout can be done on flat or small inclines less than 1%. Outdoors minimizing distractions is also good.\n\nhttps://app.trainerday.com/workouts/pratfall-40-5\n\n- 7m 40% \n- 3m 60% \n- 5m 60% \n- 2m 63% \n- 5m 55% \n- 2m 62% \n- 5m 62% \n- 3m 61% \n- 3m 50% \n- 5m 40%"
     },
     {
       "id": 95816744,
@@ -1238,18 +1286,6 @@
       "description_preview": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n- Zone 3 32m Z4 HR"
     },
     {
-      "id": 95817338,
-      "date": "2026-04-07",
-      "name": "RT9",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 76,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description_preview": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n- Zone 3 40m Z4 HR"
-    },
-    {
       "id": 88334408,
       "date": "2026-04-08",
       "name": "RRe6",
@@ -1298,16 +1334,16 @@
       "description_preview": "- Zone 1 45m Z1 HR"
     },
     {
-      "id": 88334412,
+      "id": 101316437,
       "date": "2026-04-12",
-      "name": "RLFF3",
+      "name": "RLFF2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 129,
-      "duration_hours": 2.13,
-      "duration_formatted": "2h7m42s",
+      "planned_tss": 109,
+      "duration_hours": 1.82,
+      "duration_formatted": "1h49m27s",
       "workout_summary": null,
-      "description_preview": "- Zone 1 0.5mi Z1 HR\n- Zone 2 12mi Z2 HR\n- Zone 3 1.5mi Z4 HR"
+      "description_preview": "- Zone 1 0.5mi Z1 HR\n- Zone 2 10.5mi Z2 HR\n- Zone 3 1mi Z4 HR"
     },
     {
       "id": 88334413,
@@ -1332,18 +1368,6 @@
       "duration_formatted": "48m",
       "workout_summary": null,
       "description_preview": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n- Zone 3 28m Z4 HR"
-    },
-    {
-      "id": 95817349,
-      "date": "2026-04-14",
-      "name": "RT6",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 61,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
-      "workout_summary": null,
-      "description_preview": "- Zone 1 5m Z1 HR\n- Zone 2 5m Z2 HR\n- Zone 3 30m Z4 HR"
     },
     {
       "id": 88334415,
@@ -1465,9 +1489,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 28,
-    "success": 5,
-    "patternA": 5,
+    "attempted": 30,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 23
