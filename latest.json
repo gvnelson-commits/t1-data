@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T14:04:44.648954",
+    "last_updated": "2026-03-29T14:52:39.945088",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -182,7 +182,7 @@
         "run": {
           "lthr": 166,
           "max_hr": 182,
-          "threshold_pace": 3.5683813,
+          "threshold_pace": 3.6083856,
           "pace_units": "MINS_MILE",
           "ftp": 330,
           "ftp_indoor": null
@@ -422,7 +422,7 @@
     "p_max": 440,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-29T14:04:44.647504",
+    "calculation_timestamp": "2026-03-29T14:52:39.943674",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -989,10 +989,10 @@
       "name": "RLSP1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 103,
-      "duration_hours": 1.52,
-      "duration_formatted": "1h31m9s",
-      "workout_summary": "5m30s | 9m13s | 8\u00d71m57s / 6m55s rec | 5m30s",
+      "planned_tss": 102,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m7s",
+      "workout_summary": "5m26s | 9m7s | 8\u00d71m56s / 6m50s rec | 5m26s",
       "description": "- Zone 1 0.5mi Z1 pace\n- Zone 2 1mi Z2 pace\n\n8x\n- Zone 3 0.25mi Z4 pace\n- Zone 2 0.75mi Z2 pace\n\n- Zone 1 0.5mi Z1 pace"
     },
     {
@@ -1074,8 +1074,8 @@
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": 109,
-      "duration_hours": 1.84,
-      "duration_formatted": "1h50m40s",
+      "duration_hours": 1.82,
+      "duration_formatted": "1h49m27s",
       "workout_summary": null,
       "description": "- Zone 1 0.5mi Z1 HR\n- Zone 2 10.5mi Z2 HR\n- Zone 3 1mi Z4 HR"
     },
@@ -1085,10 +1085,10 @@
       "name": "RLSP2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 125,
-      "duration_hours": 1.81,
-      "duration_formatted": "1h48m53s",
-      "workout_summary": "5m30s | 9m13s | 10\u00d71m57s / 6m55s rec | 5m30s",
+      "planned_tss": 123,
+      "duration_hours": 1.79,
+      "duration_formatted": "1h47m39s",
+      "workout_summary": "5m26s | 9m7s | 10\u00d71m56s / 6m50s rec | 5m26s",
       "description": "- Zone 1 0.5mi Z1 pace\n- Zone 2 1mi Z2 pace\n\n10x\n- Zone 3 0.25mi Z4 pace\n- Zone 2 0.75mi Z2 pace\n\n- Zone 1 0.5mi Z1 pace"
     },
     {
@@ -1194,8 +1194,8 @@
       "type": "WORKOUT",
       "sport_type": "Run",
       "planned_tss": 129,
-      "duration_hours": 2.15,
-      "duration_formatted": "2h9m7s",
+      "duration_hours": 2.13,
+      "duration_formatted": "2h7m42s",
       "workout_summary": null,
       "description_preview": "- Zone 1 0.5mi Z1 HR\n- Zone 2 12mi Z2 HR\n- Zone 3 1.5mi Z4 HR"
     },
@@ -1277,10 +1277,10 @@
       "name": "RLSP1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 103,
-      "duration_hours": 1.52,
-      "duration_formatted": "1h31m9s",
-      "workout_summary": "5m30s | 9m13s | 8\u00d71m57s / 6m55s rec | 5m30s"
+      "planned_tss": 102,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m7s",
+      "workout_summary": "5m26s | 9m7s | 8\u00d71m56s / 6m50s rec | 5m26s"
     },
     {
       "id": 88334416,
