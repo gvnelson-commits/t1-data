@@ -1,84 +1,9 @@
 {
-  "generated_at": "2026-04-01T23:35:11.997155",
+  "generated_at": "2026-04-02T00:02:06.450970",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i134713433",
-      "date": "2026-03-25",
-      "type": "VirtualRide",
-      "name": "FTP Ramp Test - 240w",
-      "interval_summary": [
-        "1x 60s 267w",
-        "2x 60s 310w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 661,
-          "avg_power": 144,
-          "max_power": 283,
-          "avg_hr": 105,
-          "max_hr": 151,
-          "avg_cadence": 91.691376,
-          "zone": 2,
-          "training_load": 8.983334,
-          "decoupling": -44.02791
-        },
-        {
-          "type": "WORK",
-          "label": "60s@267w103rpm",
-          "duration_secs": 60,
-          "avg_power": 267,
-          "max_power": 441,
-          "avg_hr": 154,
-          "max_hr": 160,
-          "avg_cadence": 102.65,
-          "zone": 5,
-          "training_load": 1.9862268,
-          "decoupling": 0.13908543
-        },
-        {
-          "type": "WORK",
-          "label": "60s@310w102rpm",
-          "duration_secs": 60,
-          "avg_power": 298,
-          "max_power": 340,
-          "avg_hr": 167,
-          "max_hr": 171,
-          "avg_cadence": 104.8,
-          "zone": 6,
-          "training_load": 2.4840567,
-          "decoupling": 1.0549911
-        },
-        {
-          "type": "WORK",
-          "label": "60s@310w102rpm",
-          "duration_secs": 60,
-          "avg_power": 321,
-          "max_power": 360,
-          "avg_hr": 173,
-          "max_hr": 178,
-          "avg_cadence": 98.71667,
-          "zone": 6,
-          "training_load": 2.8893518,
-          "decoupling": 2.2043962
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 379,
-          "avg_power": 100,
-          "max_power": 338,
-          "avg_hr": 120,
-          "max_hr": 179,
-          "avg_cadence": 78.47494,
-          "zone": 1,
-          "training_load": 4.278555,
-          "decoupling": -7.26553
-        }
-      ]
-    },
     {
       "activity_id": "i134977454",
       "date": "2026-03-26",
