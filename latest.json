@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-15T14:44:00.656073",
+    "last_updated": "2026-04-15T15:53:39.079454",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -406,11 +406,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.24,
+          "planned_tss_delta": 1.1,
           "hard_sessions_planned": 1,
           "race_proximity": 10,
           "next_week_load": 0.61,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -446,7 +446,7 @@
     "p_max": 434,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-15T14:44:00.654690",
+    "calculation_timestamp": "2026-04-15T15:53:39.077941",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -846,16 +846,16 @@
   ],
   "planned_workouts": [
     {
-      "id": 88334415,
+      "id": 104574700,
       "date": "2026-04-15",
-      "name": "RRe5",
+      "name": "Pratfall 40",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 23,
+      "sport_type": "Ride",
+      "planned_tss": 20,
       "duration_hours": 0.67,
       "duration_formatted": "40m",
       "workout_summary": null,
-      "description": "- Zone 1 40m Z1 HR"
+      "description": "Z2 workouts focus on improving your aerobic fitness through easy-moderate intensity riding. These workouts should feel fairly easy but they are still a crucial component of your base fitness and overall strength.  Coach Jack believes that you should not go hard all the time in your cycling training. Instead you should take a more polarized approach which means keeping your easy rides easy and your hard rides hard. In addition your long endurance rides are equally as important as your HIIT workouts.  Z2 workouts are completed at 56-75% of your FTP which is far from the 80% FTP stress of Sweet Spot Threshold and VO2 Max intervals. Still harder than Z1 recovery rides Z2 workouts give you a little boost of intensity without accumulating too much stress. These workouts are perfect for the base training period when you dont have much HIIT training stress.Best for IndoorOutdoorThis is good for indoors because it takes concentration to try to stay in Zone 2. Indoor ERG makes it simple. Zone 2 workouts are a good place to practice other skills such as cadence exercises. Outside Z2 rides requires focus. It is good practice to do it outdoors and this workout can be done on flat or small inclines less than 1%. Outdoors minimizing distractions is also good.\n\nhttps://app.trainerday.com/workouts/pratfall-40-5\n\n- 7m 40% \n- 3m 60% \n- 5m 60% \n- 2m 63% \n- 5m 55% \n- 2m 62% \n- 5m 62% \n- 3m 61% \n- 3m 50% \n- 5m 40%"
     },
     {
       "id": 95817409,
@@ -868,6 +868,18 @@
       "duration_formatted": "46m",
       "workout_summary": null,
       "description": "- Zone 1 5m Z1 pace\n- Zone 2 5m Z2 pace\n- Zone 5 1m30s Z7 pace\n- Zone 1 2m Z1 pace\n- Zone 4 5m Z6 pace\n- Zone 1 2m Z1 pace\n- Zone 3 10m Z4 pace\n- Zone 1 2m Z1 pace\n- Zone 4 5m Z6 pace\n- Zone 1 2m Z1 pace\n- Zone 5 1m30s Z7 pace\n- Zone 1 5m Z1 pace"
+    },
+    {
+      "id": 104575055,
+      "date": "2026-04-16",
+      "name": "Young -4",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 55,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "3 sets of intervals starting With l min at 109% FTP followed by 2 mins at 105% FTP then 4 mins at 103% FTP. Recoveries between intervals are 1-2 mins between sets 3 mins.\n\nhttps://app.trainerday.com/workouts/young-4\n\n- 3m 50% \n- 1m 95% \n- 3m 40% \n- 1m 109% \n- 1m 40% \n- 2m 105% \n- 2m 40% \n- 4m 103% \n- 3m 40% \n- 1m 109% \n- 1m 40% \n- 2m 105% \n- 2m 40% \n- 4m 103% \n- 3m 40% \n- 1m 109% \n- 1m 40% \n- 2m 105% \n- 2m 40% \n- 4m 103% \n- 2m ramp 40-30%"
     },
     {
       "id": 88334418,
@@ -966,12 +978,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
+    "attempted": 10,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 7
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 1.68,
