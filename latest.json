@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-22T20:04:30.678357",
+    "last_updated": "2026-04-22T21:09:11.215458",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -83,7 +83,7 @@
       "value": 3,
       "severity": "info",
       "threshold": "RACE_A within 7 days",
-      "context": "Race week D-3 of 'American River Parkway Half Marathon'. Today: Easy / rest, 6-13 TSS. Z1-Z2 only",
+      "context": "Race week D-3 of 'American River Parkway Half Marathon'. Today: Easy / rest, 0-13 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -390,10 +390,10 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 2,
+          "hard_sessions_planned": 4,
           "race_proximity": 3,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -429,7 +429,7 @@
     "p_max": 860,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-22T20:04:30.676816",
+    "calculation_timestamp": "2026-04-22T21:09:11.213936",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
@@ -973,25 +973,49 @@
       "description": "- Zone 1 25m Z1 HR"
     },
     {
+      "id": 105983795,
+      "date": "2026-04-25",
+      "name": "Warm-up",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 19,
+      "duration_hours": 0.35,
+      "duration_formatted": "21m",
+      "workout_summary": "10m | 5m | 3\u00d720s / 1m rec | 2m",
+      "description": "- Jog 10m Z1 Pace\n- 5m Z2 pace\n\nStrides 3x\n- Stride 20s Z6 pace\n- Jog 60s Z1 pace\n\n- Jog 2m Z1 pace"
+    },
+    {
       "id": 86518154,
       "date": "2026-04-25",
       "name": "American River Parkway Half Marathon",
       "type": "RACE_A",
       "sport_type": "Run",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 1.67,
+      "duration_formatted": "1h40m",
       "workout_summary": null,
-      "description": ""
+      "description": "- 1mi 7:50/mi Pace\n- 1mi 7:45/mi Pace\n- 1mi 7:45/mi Pace\n- 7mi 7:38/mi pace\n- 3.1mi 7:30/mi pace"
+    },
+    {
+      "id": 105983456,
+      "date": "2026-04-25",
+      "name": "Half Marathon Race Plan",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 158,
+      "duration_hours": 1.67,
+      "duration_formatted": "1h40m1s",
+      "workout_summary": null,
+      "description": "- 1mi 7:50/mi Pace\n- 1mi 7:45/mi Pace\n- 1mi 7:45/mi Pace\n- 7mi 7:38/mi pace\n- 3.1mi 7:30/mi pace"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 5,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 3.28,
@@ -1008,7 +1032,7 @@
       "category": "RACE_A",
       "type": "Run",
       "days_until": 3,
-      "moving_time_seconds": null,
+      "moving_time_seconds": 6000,
       "distance_meters": 21083.0
     },
     "all_races": [
@@ -1018,7 +1042,7 @@
         "category": "RACE_A",
         "type": "Run",
         "days_until": 3,
-        "moving_time_seconds": null,
+        "moving_time_seconds": 6000,
         "distance_meters": 21083.0
       }
     ],
@@ -1031,8 +1055,8 @@
       "event_date": "2026-04-25",
       "event_category": "RACE_A",
       "event_type": "Run",
-      "event_duration_class": "long_endurance",
-      "event_moving_time_seconds": null,
+      "event_duration_class": "medium",
+      "event_moving_time_seconds": 6000,
       "days_until_event": 3,
       "current_day": "D-3",
       "ctl_baseline": 32.5,
@@ -1049,16 +1073,16 @@
       "projected_race_day_tsb": 12.7,
       "tsb_target_range": {
         "min": 10,
-        "max": 25
+        "max": 20
       },
       "today": {
         "label": "Easy / rest",
         "load_target_tss": {
-          "min": 6,
+          "min": 0,
           "max": 13
         },
         "zones": "Z1-Z2 only",
-        "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness. Easy endurance preferred over complete rest for long events."
+        "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness."
       },
       "carb_loading": {
         "applicable": true,
@@ -1070,7 +1094,7 @@
       "opener": {
         "day": "D-2",
         "date": "2026-04-23",
-        "intensity": "lighter"
+        "intensity": "standard"
       },
       "go_no_go": {
         "tsb_status": "green",
