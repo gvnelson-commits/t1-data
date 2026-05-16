@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-15T23:11:28.463256",
+    "last_updated": "2026-05-16T00:07:07.460111",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -102,20 +102,20 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 46.0,
-        "baseline_7d": 49.6,
-        "delta_pct": -7.3
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 47.8,
+        "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 54.2,
+        "baseline_7d": 54.6,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "green",
-        "hours": 7.85,
+        "status": "unavailable",
+        "hours": null,
         "quality": null
       },
       "acwr": {
@@ -128,14 +128,14 @@
       },
       "tsb": {
         "status": "green",
-        "value": 9.4
+        "value": 9.9
       }
     },
     "signal_summary": {
-      "green": 3,
+      "green": 1,
       "amber": 1,
       "red": 0,
-      "unavailable": 2
+      "unavailable": 4
     },
     "phase_context": {
       "phase": "Base",
@@ -145,13 +145,13 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 1 green, 1 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-04-19",
-    "age_days": 26,
+    "age_days": 27,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -171,17 +171,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 26.68,
-      "atl": 17.23,
-      "tsb": 9.45,
-      "ramp_rate": -1.77,
+      "ctl": 26.36,
+      "atl": 16.44,
+      "tsb": 9.92,
+      "ramp_rate": -1.89,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 222.3,
-      "w_prime": 18611,
+      "eftp": 222.1,
+      "w_prime": 18592,
       "w_prime_kj": 18.6,
-      "p_max": 843,
+      "p_max": 842,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -213,11 +213,11 @@
     "current_metrics": {
       "weight_kg": 85.883,
       "resting_hr": 59,
-      "hrv": 46.0,
+      "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 7.85,
-      "sleep_formatted": "7h51m",
-      "sleep_score": 91.0,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_score": null,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -229,7 +229,7 @@
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
-      "baevsky_si": 3.71,
+      "baevsky_si": null,
       "lactate": null,
       "respiration": null,
       "body_fat_pct": null,
@@ -242,16 +242,16 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 72.0
+      "readiness": null
     }
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 49.6,
-    "rhr_baseline_7d": 54.2,
-    "hrv_baseline_28d": 57.6,
-    "rhr_baseline_28d": 50.2,
-    "latest_hrv": 46.0,
+    "hrv_baseline_7d": 47.8,
+    "rhr_baseline_7d": 54.6,
+    "hrv_baseline_28d": 58.1,
+    "rhr_baseline_28d": 50.3,
+    "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.69,
     "acwr_interpretation": "undertraining",
@@ -372,13 +372,13 @@
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
-        "2026-05-09",
         "2026-05-10",
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ],
       "completed_dates": [
         "2026-05-12",
@@ -387,7 +387,7 @@
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "high",
+      "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
@@ -397,11 +397,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.6,
+          "planned_tss_delta": 2.02,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 1.66,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -429,22 +429,22 @@
       "benchmark_percentage": "-4.0%",
       "seasonal_expected": false
     },
-    "eftp": 222.3,
-    "w_prime": 18611,
+    "eftp": 222.1,
+    "w_prime": 18592,
     "w_prime_kj": 18.6,
-    "p_max": 843,
+    "p_max": 842,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-15T23:11:28.462253",
+    "calculation_timestamp": "2026-05-16T00:07:07.458752",
     "data_quality": {
-      "hrv_data_points": 7,
-      "rhr_data_points": 6,
+      "hrv_data_points": 6,
+      "rhr_data_points": 5,
       "activities_7d": 2,
       "activities_28d": 14,
       "planned_workouts_7d": 7,
       "ftp_history_days": {
-        "indoor": 58,
-        "outdoor": 58
+        "indoor": 59,
+        "outdoor": 59
       }
     }
   },
@@ -561,45 +561,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-05-09",
-      "weight_kg": null,
-      "resting_hr": 52,
-      "hrv_rmssd": 60.0,
-      "hrv_sdnn": 53.0,
-      "sleep_hours": 7.7,
-      "sleep_formatted": "7h42m",
-      "sleep_quality": null,
-      "sleep_score": 90.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": 50.0,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": 96.916664,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": 3.02,
-      "lactate": null,
-      "respiration": 13.755814,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 7593,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": 94.0
-    },
     {
       "date": "2026-05-10",
       "weight_kg": null,
@@ -833,21 +794,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": 72.0
+    },
+    {
+      "date": "2026-05-16",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 108420452,
-      "date": "2026-05-15",
-      "name": "RECOVERY",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 13,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "Recovery rides are all about recovery If you take them easy enough many people get more recovery with a little blood in their legs than by sitting on the couch. If you cant do them easy enough take the day off. In order to get stronger you need to rest.  During Zone 1 recovery rides stick to a pace of 45-55% FTP and no harder. Recovery rides become more important the more you ride as they are crucial to resting and recovering your fitness in the middle of a training block.  You should never do three hard days in a row except in special circumstances such as during a peak training block. And thats where recovery rides come in. Recovery rides should be completed once or twice per week depending on how many days you might take off the bike.  During a peak training block three hard interval sessions a week can be too much and youll not only be failing to gain fitness but you might also be losing it. Coach Jack and most top coaches agree that going too hard too often means that you will never be going hard at all  youre simply over-trained.Best for IndoorMost people have a hard time staying in Zone 1 outdoors. You need flat distraction-free route to do this outdoors. Perfect for indoors and watching Netflix or Youtube.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765598_11\n\n- Warmup 7m 40% \n\n\n2x\n- Warmup 3m 60% \n\n\n- 1m 43% \n- 3m 56% \n- 3m 51% \n- 3m 56% \n- 2m 50% \n- Cooldown 5m 40%"
-    },
     {
       "id": 108420453,
       "date": "2026-05-16",
@@ -942,7 +930,7 @@
       "duration_hours": 0.25,
       "duration_formatted": "15m",
       "workout_summary": null,
-      "description_preview": "CADENCE WORK: This workout contains short periods of cadence drills to slowly see if we can increase your natural cadence a little. Z2 workouts focus on improving your aerobic fitness through easy-moderate intensity riding. These workouts should feel fairly easy but they are still a crucial component of your base fitness and overall strength.  Coach Jack believes that you should not go hard all the time in your cycling training. Instead you should take a more polarized approach which means keeping your easy rides easy and your hard rides hard. In addition your long endurance rides are equally as important as your HIIT workouts.  Z2 workouts are completed at 56-75% of your FTP which is far from the 80% FTP stress of Sweet Spot Threshold and VO2 Max intervals. Still harder than Z1 recovery rides Z2 workouts give you a little boost of intensity without accumulating too much stress. These workouts are perfect for the base training period when you dont have much HIIT training stress.Best for IndoorOutdoorThis is good for indoors because it takes concentration to try to stay in Zone 2. Indoor ERG makes it simple. Zone 2 workouts are a good place to practice other skills such as cadence exercises. Outside Z2 rides requires focus. It is good practice to do it outdoors and this workout can be done on flat or small inclines less than 1%. Outdoors minimizing distractions is also good.\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765602_19\n- Warmup 7m 40%"
+      "description": "CADENCE WORK: This workout contains short periods of cadence drills to slowly see if we can increase your natural cadence a little. Z2 workouts focus on improving your aerobic fitness through easy-moderate intensity riding. These workouts should feel fairly easy but they are still a crucial component of your base fitness and overall strength.  Coach Jack believes that you should not go hard all the time in your cycling training. Instead you should take a more polarized approach which means keeping your easy rides easy and your hard rides hard. In addition your long endurance rides are equally as important as your HIIT workouts.  Z2 workouts are completed at 56-75% of your FTP which is far from the 80% FTP stress of Sweet Spot Threshold and VO2 Max intervals. Still harder than Z1 recovery rides Z2 workouts give you a little boost of intensity without accumulating too much stress. These workouts are perfect for the base training period when you dont have much HIIT training stress.Best for IndoorOutdoorThis is good for indoors because it takes concentration to try to stay in Zone 2. Indoor ERG makes it simple. Zone 2 workouts are a good place to practice other skills such as cadence exercises. Outside Z2 rides requires focus. It is good practice to do it outdoors and this workout can be done on flat or small inclines less than 1%. Outdoors minimizing distractions is also good.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765602_19\n\n- Warmup 7m 40% \n- Warmup 3m 60% \n- Cooldown 5m 40%"
     },
     {
       "id": 108420463,
@@ -1101,20 +1089,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
+    "attempted": 21,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 21
+    "bail_no_match": 20
   },
   "weekly_summary": {
     "total_training_hours": 1.93,
     "total_training_formatted": "1h55m",
     "total_tss": 98,
     "activities_count": 2,
-    "avg_hrv": 49.6,
-    "avg_resting_hr": 54.2
+    "avg_hrv": 47.8,
+    "avg_resting_hr": 54.6
   },
   "race_calendar": {
     "next_race": null,
