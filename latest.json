@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-17T23:41:10.015818",
+    "last_updated": "2026-05-18T01:49:36.698847",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -104,13 +104,13 @@
       "hrv": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 49.4,
+        "baseline_7d": 47.2,
         "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 54.8,
+        "baseline_7d": 55.7,
         "delta_bpm": null
       },
       "sleep": {
@@ -128,7 +128,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 12.0
+        "value": 7.9
       }
     },
     "signal_summary": {
@@ -151,7 +151,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-19",
-    "age_days": 28,
+    "age_days": 29,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -171,15 +171,15 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 25.56,
-      "atl": 13.53,
-      "tsb": 12.03,
-      "ramp_rate": -2.02,
+      "ctl": 26.27,
+      "atl": 18.38,
+      "tsb": 7.89,
+      "ramp_rate": -0.66,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 221.8,
-      "w_prime": 18574,
+      "eftp": 221.6,
+      "w_prime": 18555,
       "w_prime_kj": 18.6,
       "p_max": 841,
       "vo2max": null,
@@ -247,10 +247,10 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 49.4,
-    "rhr_baseline_7d": 54.8,
-    "hrv_baseline_28d": 58.1,
-    "rhr_baseline_28d": 50.2,
+    "hrv_baseline_7d": 47.2,
+    "rhr_baseline_7d": 55.7,
+    "hrv_baseline_28d": 58.8,
+    "rhr_baseline_28d": 50.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.79,
@@ -372,13 +372,13 @@
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
-        "2026-05-11",
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
         "2026-05-16",
-        "2026-05-17"
+        "2026-05-17",
+        "2026-05-18"
       ],
       "completed_dates": [
         "2026-05-12",
@@ -397,11 +397,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.73,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 1.66,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": 1.66,
-          "plan_coverage_current_week": 0.2,
+          "next_week_load": 1.11,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -429,22 +429,22 @@
       "benchmark_percentage": "-4.0%",
       "seasonal_expected": false
     },
-    "eftp": 221.8,
-    "w_prime": 18574,
+    "eftp": 221.6,
+    "w_prime": 18555,
     "w_prime_kj": 18.6,
     "p_max": 841,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-17T23:41:10.014432",
+    "calculation_timestamp": "2026-05-18T01:49:36.697527",
     "data_quality": {
-      "hrv_data_points": 5,
-      "rhr_data_points": 4,
+      "hrv_data_points": 4,
+      "rhr_data_points": 3,
       "activities_7d": 2,
       "activities_28d": 13,
       "planned_workouts_7d": 7,
       "ftp_history_days": {
-        "indoor": 60,
-        "outdoor": 60
+        "indoor": 61,
+        "outdoor": 61
       }
     }
   },
@@ -561,45 +561,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-05-11",
-      "weight_kg": null,
-      "resting_hr": 52,
-      "hrv_rmssd": 58.0,
-      "hrv_sdnn": 62.0,
-      "sleep_hours": 6.98,
-      "sleep_formatted": "6h59m",
-      "sleep_quality": null,
-      "sleep_score": 85.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": 51.0,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": 97.26667,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": 3.22,
-      "lactate": null,
-      "respiration": 14.364583,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 4039,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": 83.0
-    },
     {
       "date": "2026-05-12",
       "weight_kg": null,
@@ -833,21 +794,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-05-18",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 108420454,
-      "date": "2026-05-17",
-      "name": "Z2+",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": null,
-      "description": "Long rides are all about building your aerobic endurance. They are best done in Zone 2 or Zone 3 which should feel like riding at a moderately hard effort for a very long time. There should be limited sustained effort above this with the focus being long steady state efforts at Z2Z3.  Coach Jacks Long workouts are a bit harder than Z2 workouts which include Z2 only. The Long rides in contrast give you more freedom to move up into the higher intensity of Z3  When done correctly this ride alone will help improve your fitness more than any other ride. In other words a single long ride is more beneficial than a single HIIT session.  During these Long rides ride as long as you can that day but build up slowly. Take it week by week and dont try to increase your mileage too much in one week. Try to do some sustained or repeated hill climbs during your Long ride as this will give you something to focus on in addition to helping increase your overall workload.Best for OutdoorCoach Jack does NOT recommend very long indoor rides. Its typically less biomechanically healthy and for most people it is not very fun. This is a perfect free ride that can be enjoyable and even perfect for a group ride with friends. Ideally it should include numerous climbs where you are pushing yourself into sustained Z3Z4 efforts but generally this should be a Z2Z3 ride.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765599_13\n\n- Warmup 7m 40% \n- Warmup 3m 60% \n- 1m 50% \n- 2m 70% \n- 2m 75% \n- 4m 77% \n- 1m 50% \n- 2m 80% \n- 2m 70% \n- 2m 75% \n- 4m 77% \n- 30s 48% \n- 2m 80% \n- 2m 70% \n- 2m 75% \n- 4m 77% \n- 2m 80% \n- 1m 55% \n\n\n2x\n- 2m 70% \n- 2m 75% \n- 4m 77% \n- 2m 80% \n\n\n- 2m 70% \n- 2m 75% \n- 2m 30s 50% \n- Cooldown 5m 40%"
-    },
     {
       "id": 108420455,
       "date": "2026-05-18",
@@ -942,7 +930,7 @@
       "duration_hours": 0.5,
       "duration_formatted": "30m",
       "workout_summary": null,
-      "description_preview": "Recovery rides are all about recovery If you take them easy enough many people get more recovery with a little blood in their legs than by sitting on the couch. If you cant do them easy enough take the day off. In order to get stronger you need to rest.  During Zone 1 recovery rides stick to a pace of 45-55% FTP and no harder. Recovery rides become more important the more you ride as they are crucial to resting and recovering your fitness in the middle of a training block.  You should never do three hard days in a row except in special circumstances such as during a peak training block. And thats where recovery rides come in. Recovery rides should be completed once or twice per week depending on how many days you might take off the bike.  During a peak training block three hard interval sessions a week can be too much and youll not only be failing to gain fitness but you might also be losing it. Coach Jack and most top coaches agree that going too hard too often means that you will never be going hard at all  youre simply over-trained.Best for IndoorMost people have a hard time staying in Zone 1 outdoors. You need flat distraction-free route to do this outdoors. Perfect for indoors and watching Netflix or Youtube.\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765603_21\n- Warmup 7m 40%"
+      "description": "Recovery rides are all about recovery If you take them easy enough many people get more recovery with a little blood in their legs than by sitting on the couch. If you cant do them easy enough take the day off. In order to get stronger you need to rest.  During Zone 1 recovery rides stick to a pace of 45-55% FTP and no harder. Recovery rides become more important the more you ride as they are crucial to resting and recovering your fitness in the middle of a training block.  You should never do three hard days in a row except in special circumstances such as during a peak training block. And thats where recovery rides come in. Recovery rides should be completed once or twice per week depending on how many days you might take off the bike.  During a peak training block three hard interval sessions a week can be too much and youll not only be failing to gain fitness but you might also be losing it. Coach Jack and most top coaches agree that going too hard too often means that you will never be going hard at all  youre simply over-trained.Best for IndoorMost people have a hard time staying in Zone 1 outdoors. You need flat distraction-free route to do this outdoors. Perfect for indoors and watching Netflix or Youtube.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765603_21\n\n- Warmup 7m 40% \n\n\n2x\n- Warmup 3m 60% \n\n\n- 5m 51% \n- 2m 54% \n- 5m 48% \n- Cooldown 5m 40%"
     },
     {
       "id": 108420465,
@@ -1077,20 +1065,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 20,
+    "attempted": 19,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 19
+    "bail_no_match": 18
   },
   "weekly_summary": {
     "total_training_hours": 1.93,
     "total_training_formatted": "1h55m",
     "total_tss": 98,
     "activities_count": 2,
-    "avg_hrv": 49.4,
-    "avg_resting_hr": 54.8
+    "avg_hrv": 47.2,
+    "avg_resting_hr": 55.7
   },
   "race_calendar": {
     "next_race": null,
