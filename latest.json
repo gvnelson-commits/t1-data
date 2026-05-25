@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-25T00:04:31.870322",
+    "last_updated": "2026-05-25T04:50:32.227275",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -129,8 +129,8 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Base",
-      "phase_week": 5,
+      "phase": "Recovery",
+      "phase_week": 2,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
@@ -141,8 +141,8 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-04-19",
-    "age_days": 35,
+    "last_generated": "2026-05-25",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -345,34 +345,38 @@
       "completed_dates": []
     },
     "phase_detection": {
-      "phase": "Base",
-      "confidence": "high",
-      "reason_codes": [],
+      "phase": "Recovery",
+      "confidence": "medium",
+      "reason_codes": [
+        "DECLINING_LOAD_NO_HARD_DAYS"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -0.97,
-          "acwr_trend": "falling",
-          "hard_day_pattern": 2,
+          "ctl_slope": -1.65,
+          "acwr_trend": "stable",
+          "hard_day_pattern": 0.2,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.83,
+          "planned_tss_delta": 1.83,
           "hard_sessions_planned": 1,
           "race_proximity": null,
-          "next_week_load": 0.82,
+          "next_week_load": 1.81,
           "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": "Base",
-      "phase_duration_weeks": 5,
+      "previous_phase": "Recovery",
+      "phase_duration_weeks": 2,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
-    "phase_triggers": [],
+    "phase_detected": "Recovery",
+    "phase_triggers": [
+      "DECLINING_LOAD_NO_HARD_DAYS"
+    ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": 240,
@@ -394,7 +398,7 @@
     "p_max": 835,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-25T00:04:31.869057",
+    "calculation_timestamp": "2026-05-25T04:50:32.226038",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
