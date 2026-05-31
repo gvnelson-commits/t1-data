@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-30T23:42:01.404111",
+    "last_updated": "2026-05-31T01:52:23.654105",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -80,10 +80,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.33,
+      "value": 1.34,
       "severity": "warning",
       "threshold": "0.8 / 1.3",
-      "context": "ACWR 1.33 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
+      "context": "ACWR 1.34 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
       "persistence_days": null,
       "tier": 2
     },
@@ -120,7 +120,7 @@
       },
       "acwr": {
         "status": "amber",
-        "value": 1.33
+        "value": 1.34
       },
       "ri": {
         "status": "unavailable",
@@ -150,13 +150,13 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P1 acute overload (modify). ACWR 1.33 > 1.3.",
+    "reason": "P1 acute overload (modify). ACWR 1.34 > 1.3.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-05-25",
-    "age_days": 5,
+    "age_days": 6,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -176,10 +176,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 21.38,
-      "atl": 14.52,
-      "tsb": 6.86,
-      "ramp_rate": -0.68,
+      "ctl": 20.67,
+      "atl": 11.75,
+      "tsb": 8.92,
+      "ramp_rate": -0.86,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -254,11 +254,11 @@
     "recovery_index": null,
     "hrv_baseline_7d": 60.0,
     "rhr_baseline_7d": 52,
-    "hrv_baseline_28d": 55.6,
-    "rhr_baseline_28d": 51.7,
+    "hrv_baseline_28d": 57.4,
+    "rhr_baseline_28d": 52.4,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.33,
+    "acwr": 1.34,
     "acwr_interpretation": "caution",
     "monotony": 0.58,
     "monotony_interpretation": "normal",
@@ -271,7 +271,7 @@
     "stress_tolerance": 1.1,
     "load_recovery_ratio": null,
     "tss_7d_total": 107.0,
-    "tss_28d_total": 321.0,
+    "tss_28d_total": 319.0,
     "zone_distribution_7d": {
       "z1_hours": 0.85,
       "z2_hours": 0.27,
@@ -312,15 +312,15 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 17889,
+      "z1_seconds": 16803,
       "z2_seconds": 1877,
       "z3_seconds": 2263,
-      "z1_pct": 81.2,
-      "z2_pct": 8.5,
-      "z3_pct": 10.3,
+      "z1_pct": 80.2,
+      "z2_pct": 9.0,
+      "z3_pct": 10.8,
       "polarization_index": 1.99,
       "classification": "Pyramidal",
-      "zone_basis": "mixed"
+      "zone_basis": "power"
     },
     "seiler_tid_28d_primary": {
       "z1_seconds": 16803,
@@ -377,13 +377,13 @@
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
-        "2026-05-24",
         "2026-05-25",
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
-        "2026-05-30"
+        "2026-05-30",
+        "2026-05-31"
       ],
       "completed_dates": [
         "2026-05-27",
@@ -404,11 +404,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.08,
+          "planned_tss_delta": 3.76,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": 1.81,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -444,16 +444,16 @@
     "p_max": 831,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-30T23:42:01.402839",
+    "calculation_timestamp": "2026-05-31T01:52:23.652834",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 2,
       "activities_7d": 2,
-      "activities_28d": 9,
+      "activities_28d": 8,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
-        "indoor": 73,
-        "outdoor": 73
+        "indoor": 74,
+        "outdoor": 74
       }
     }
   },
@@ -570,45 +570,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-05-24",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-05-25",
       "weight_kg": null,
@@ -842,21 +803,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-05-31",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 108420471,
-      "date": "2026-05-30",
-      "name": "Collywobbles 10",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 4,
-      "duration_hours": 0.17,
-      "duration_formatted": "10m",
-      "workout_summary": null,
-      "description": "Z2 workouts focus on improving your aerobic fitness through easy-moderate intensity riding. These workouts should feel fairly easy but they are still a crucial component of your base fitness and overall strength.  Coach Jack believes that you should not go hard all the time in your cycling training. Instead you should take a more polarized approach which means keeping your easy rides easy and your hard rides hard. In addition your long endurance rides are equally as important as your HIIT workouts.  Z2 workouts are completed at 56-75% of your FTP which is far from the 80% FTP stress of Sweet Spot Threshold and VO2 Max intervals. Still harder than Z1 recovery rides Z2 workouts give you a little boost of intensity without accumulating too much stress. These workouts are perfect for the base training period when you dont have much HIIT training stress.Best for IndoorOutdoorThis is good for indoors because it takes concentration to try to stay in Zone 2. Indoor ERG makes it simple. Zone 2 workouts are a good place to practice other skills such as cadence exercises. Outside Z2 rides requires focus. It is good practice to do it outdoors and this workout can be done on flat or small inclines less than 1%. Outdoors minimizing distractions is also good.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765605_26\n\n- Warmup 4m 40% \n- Warmup 3m 60% \n- Cooldown 3m 40%"
-    },
     {
       "id": 108420470,
       "date": "2026-05-31",
@@ -931,12 +919,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
+    "attempted": 6,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 7
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 1.44,
