@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-01T23:26:15.013123",
+    "last_updated": "2026-06-02T01:58:48.465267",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -80,10 +80,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.83,
+      "value": 2.02,
       "severity": "alarm",
       "threshold": "0.75 / 1.35",
-      "context": "ACWR 1.83 outside safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 2.02 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     }
@@ -93,10 +93,10 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 65.0,
+        "status": "unavailable",
+        "value": null,
         "baseline_7d": 58.2,
-        "delta_pct": 11.7
+        "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
@@ -105,13 +105,13 @@
         "delta_bpm": null
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.81,
+        "status": "unavailable",
+        "hours": null,
         "quality": null
       },
       "acwr": {
         "status": "red",
-        "value": 1.83
+        "value": 2.02
       },
       "ri": {
         "status": "unavailable",
@@ -119,10 +119,10 @@
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 1,
+      "green": 0,
+      "amber": 0,
       "red": 1,
-      "unavailable": 2
+      "unavailable": 4
     },
     "phase_context": {
       "phase": "Recovery",
@@ -132,13 +132,13 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P1 acute overload. ACWR 1.83 > 1.5.",
+    "reason": "P1 acute overload. ACWR 2.02 > 1.5.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-05-25",
-    "age_days": 7,
+    "age_days": 8,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -158,11 +158,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 22.05,
-      "atl": 20.83,
-      "tsb": 1.22,
-      "ramp_rate": 1.02,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 21.53,
+      "atl": 18.06,
+      "tsb": 3.47,
+      "ramp_rate": 1.0,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 218.8,
@@ -200,11 +200,11 @@
     "current_metrics": {
       "weight_kg": 85.883,
       "resting_hr": 52,
-      "hrv": 65.0,
+      "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 6.81,
-      "sleep_formatted": "6h48m",
-      "sleep_score": 75.0,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_score": null,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -216,7 +216,7 @@
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
-      "baevsky_si": 3.41,
+      "baevsky_si": null,
       "lactate": null,
       "respiration": null,
       "body_fat_pct": null,
@@ -229,18 +229,18 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 90.0
+      "readiness": null
     }
   },
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 58.2,
     "rhr_baseline_7d": 52.5,
-    "hrv_baseline_28d": 55.6,
-    "rhr_baseline_28d": 52.9,
-    "latest_hrv": 65.0,
+    "hrv_baseline_28d": 54.9,
+    "rhr_baseline_28d": 53.3,
+    "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.83,
+    "acwr": 2.02,
     "acwr_interpretation": "danger",
     "monotony": 0.78,
     "monotony_interpretation": "normal",
@@ -253,7 +253,7 @@
     "stress_tolerance": 1.8,
     "load_recovery_ratio": null,
     "tss_7d_total": 178.0,
-    "tss_28d_total": 390.0,
+    "tss_28d_total": 352.0,
     "zone_distribution_7d": {
       "z1_hours": 1.22,
       "z2_hours": 0.3,
@@ -294,24 +294,24 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 18237,
-      "z2_seconds": 1958,
-      "z3_seconds": 3447,
-      "z1_pct": 77.1,
-      "z2_pct": 8.3,
-      "z3_pct": 14.6,
-      "polarization_index": 2.13,
+      "z1_seconds": 16122,
+      "z2_seconds": 1531,
+      "z3_seconds": 3293,
+      "z1_pct": 77.0,
+      "z2_pct": 7.3,
+      "z3_pct": 15.7,
+      "polarization_index": 2.22,
       "classification": "Polarized",
       "zone_basis": "power"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 18237,
-      "z2_seconds": 1958,
-      "z3_seconds": 3447,
-      "z1_pct": 77.1,
-      "z2_pct": 8.3,
-      "z3_pct": 14.6,
-      "polarization_index": 2.13,
+      "z1_seconds": 16122,
+      "z2_seconds": 1531,
+      "z3_seconds": 3293,
+      "z1_pct": 77.0,
+      "z2_pct": 7.3,
+      "z3_pct": 15.7,
+      "polarization_index": 2.22,
       "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
@@ -337,9 +337,9 @@
       },
       "hrrc": {
         "mean_hrrc_7d": 26.7,
-        "mean_hrrc_28d": 28.4,
+        "mean_hrrc_28d": 28.2,
         "qualifying_sessions_7d": 3,
-        "qualifying_sessions_28d": 5,
+        "qualifying_sessions_28d": 4,
         "trend": "stable",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
@@ -347,8 +347,8 @@
         "classification_7d": "Polarized",
         "classification_28d": "Polarized",
         "pi_7d": 3.17,
-        "pi_28d": 2.13,
-        "pi_delta": 1.04,
+        "pi_28d": 2.22,
+        "pi_delta": 0.95,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
@@ -359,13 +359,13 @@
       "completed_days": 3,
       "matched_days": 3,
       "planned_dates": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-05-30",
         "2026-05-31",
-        "2026-06-01"
+        "2026-06-01",
+        "2026-06-02"
       ],
       "completed_dates": [
         "2026-05-27",
@@ -387,11 +387,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.81,
+          "planned_tss_delta": 1.92,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -427,16 +427,16 @@
     "p_max": 830,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-01T23:26:14.688003",
+    "calculation_timestamp": "2026-06-02T01:58:48.463789",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 4,
       "activities_7d": 3,
-      "activities_28d": 9,
+      "activities_28d": 8,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
-        "indoor": 75,
-        "outdoor": 75
+        "indoor": 76,
+        "outdoor": 76
       }
     }
   },
@@ -608,45 +608,6 @@
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-05-26",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-05-27",
       "weight_kg": null,
@@ -880,21 +841,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": 90.0
+    },
+    {
+      "date": "2026-06-02",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 108420472,
-      "date": "2026-06-01",
-      "name": "RECOVERY",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 12,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "Recovery rides are all about recovery If you take them easy enough many people get more recovery with a little blood in their legs than by sitting on the couch. If you cant do them easy enough take the day off. In order to get stronger you need to rest.  During Zone 1 recovery rides stick to a pace of 45-55% FTP and no harder. Recovery rides become more important the more you ride as they are crucial to resting and recovering your fitness in the middle of a training block.  You should never do three hard days in a row except in special circumstances such as during a peak training block. And thats where recovery rides come in. Recovery rides should be completed once or twice per week depending on how many days you might take off the bike.  During a peak training block three hard interval sessions a week can be too much and youll not only be failing to gain fitness but you might also be losing it. Coach Jack and most top coaches agree that going too hard too often means that you will never be going hard at all  youre simply over-trained.Best for IndoorMost people have a hard time staying in Zone 1 outdoors. You need flat distraction-free route to do this outdoors. Perfect for indoors and watching Netflix or Youtube.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765605_28\n\n- Warmup 7m 40% \n\n\n2x\n- Warmup 3m 60% \n\n\n- 5m 51% \n- 2m 54% \n- 5m 48% \n- Cooldown 5m 40%"
-    },
     {
       "id": 108420473,
       "date": "2026-06-02",
@@ -945,12 +933,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 4,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 2.19,
