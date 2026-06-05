@@ -64,15 +64,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 1.48,
-      "total_training_formatted": "1h28m",
-      "total_activities": 2,
-      "total_tss": 125
+      "total_training_hours": 2.01,
+      "total_training_formatted": "2h",
+      "total_activities": 3,
+      "total_tss": 170
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-05T14:48:24.718887",
+    "last_updated": "2026-06-05T17:13:54.238264",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -80,10 +80,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.52,
+      "value": 1.81,
       "severity": "alarm",
       "threshold": "0.75 / 1.35",
-      "context": "ACWR 1.52 outside safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 1.81 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     }
@@ -111,7 +111,7 @@
       },
       "acwr": {
         "status": "red",
-        "value": 1.52
+        "value": 1.81
       },
       "ri": {
         "status": "unavailable",
@@ -132,7 +132,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P1 acute overload. ACWR 1.52 > 1.5.",
+    "reason": "P1 acute overload. ACWR 1.81 > 1.5.",
     "alarm_refs": []
   },
   "history": {
@@ -145,24 +145,24 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 1.48,
-    "total_activities": 2,
+    "total_duration_decimal_hours": 2.01,
+    "total_activities": 3,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 1.48,
-        "count": 2,
-        "tss": 125,
-        "distance_km": 49.3
+        "duration_decimal_hours": 2.01,
+        "count": 3,
+        "tss": 170,
+        "distance_km": 66.8
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 21.0,
-      "atl": 16.27,
-      "tsb": 4.73,
-      "ramp_rate": 0.83,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 22.06,
+      "atl": 22.26,
+      "tsb": -0.2,
+      "ramp_rate": 0.48,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 218.8,
@@ -240,78 +240,78 @@
     "rhr_baseline_28d": 53.7,
     "latest_hrv": 53.0,
     "latest_rhr": null,
-    "acwr": 1.52,
+    "acwr": 1.81,
     "acwr_interpretation": "danger",
-    "monotony": 0.58,
+    "monotony": 0.78,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 125.0,
-    "effective_monotony": 0.58,
+    "primary_sport_monotony": 0.78,
+    "primary_sport_tss_7d": 170.0,
+    "effective_monotony": 0.78,
     "multi_sport_detected": false,
-    "strain": 72.0,
-    "stress_tolerance": 1.2,
+    "strain": 133.0,
+    "stress_tolerance": 1.7,
     "load_recovery_ratio": null,
-    "tss_7d_total": 125.0,
-    "tss_28d_total": 330.0,
+    "tss_7d_total": 170.0,
+    "tss_28d_total": 375.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.49,
-      "z2_hours": 0.33,
+      "z1_hours": 0.78,
+      "z2_hours": 0.34,
       "z3_hours": 0.06,
-      "z4_plus_hours": 0.6,
-      "total_hours": 1.48,
+      "z4_plus_hours": 0.82,
+      "total_hours": 2.01,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 3.9,
+    "grey_zone_percentage": 3.1,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 40.6,
+    "quality_intensity_percentage": 40.7,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.56,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 2,
+    "hard_days_this_week": 3,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 2960,
-      "z2_seconds": 205,
-      "z3_seconds": 2159,
-      "z1_pct": 55.6,
-      "z2_pct": 3.9,
-      "z3_pct": 40.6,
-      "polarization_index": 2.77,
+      "z1_seconds": 4062,
+      "z2_seconds": 226,
+      "z3_seconds": 2948,
+      "z1_pct": 56.1,
+      "z2_pct": 3.1,
+      "z3_pct": 40.7,
+      "polarization_index": 2.86,
       "classification": "Polarized",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 2960,
-      "z2_seconds": 205,
-      "z3_seconds": 2159,
-      "z1_pct": 55.6,
-      "z2_pct": 3.9,
-      "z3_pct": 40.6,
-      "polarization_index": 2.77,
+      "z1_seconds": 4062,
+      "z2_seconds": 226,
+      "z3_seconds": 2948,
+      "z1_pct": 56.1,
+      "z2_pct": 3.1,
+      "z3_pct": 40.7,
+      "polarization_index": 2.86,
       "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 12154,
-      "z2_seconds": 1385,
-      "z3_seconds": 3892,
-      "z1_pct": 69.7,
-      "z2_pct": 7.9,
-      "z3_pct": 22.3,
-      "polarization_index": 2.29,
+      "z1_seconds": 13256,
+      "z2_seconds": 1406,
+      "z3_seconds": 4681,
+      "z1_pct": 68.5,
+      "z2_pct": 7.3,
+      "z3_pct": 24.2,
+      "polarization_index": 2.36,
       "classification": "Polarized",
       "zone_basis": "power"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 12154,
-      "z2_seconds": 1385,
-      "z3_seconds": 3892,
-      "z1_pct": 69.7,
-      "z2_pct": 7.9,
-      "z3_pct": 22.3,
-      "polarization_index": 2.29,
+      "z1_seconds": 13256,
+      "z2_seconds": 1406,
+      "z3_seconds": 4681,
+      "z1_pct": 68.5,
+      "z2_pct": 7.3,
+      "z3_pct": 24.2,
+      "polarization_index": 2.36,
       "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
@@ -336,28 +336,28 @@
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
-        "mean_hrrc_7d": 23.0,
-        "mean_hrrc_28d": 24.8,
-        "qualifying_sessions_7d": 2,
-        "qualifying_sessions_28d": 4,
+        "mean_hrrc_7d": 24.3,
+        "mean_hrrc_28d": 25.2,
+        "qualifying_sessions_7d": 3,
+        "qualifying_sessions_28d": 5,
         "trend": "stable",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
         "classification_7d": "Polarized",
         "classification_28d": "Polarized",
-        "pi_7d": 2.77,
-        "pi_28d": 2.29,
-        "pi_delta": 0.48,
+        "pi_7d": 2.86,
+        "pi_28d": 2.36,
+        "pi_delta": 0.5,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.17,
+    "consistency_index": 0.33,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 2,
-      "matched_days": 1,
+      "completed_days": 3,
+      "matched_days": 2,
       "planned_dates": [
         "2026-05-30",
         "2026-05-31",
@@ -368,7 +368,8 @@
       ],
       "completed_dates": [
         "2026-06-01",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-05"
       ]
     },
     "phase_detection": {
@@ -385,11 +386,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.85,
+          "planned_tss_delta": 1.39,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -425,13 +426,13 @@
     "p_max": 830,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-05T14:48:24.717820",
+    "calculation_timestamp": "2026-06-05T17:13:53.736415",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 6,
-      "activities_7d": 2,
-      "activities_28d": 6,
-      "planned_workouts_7d": 7,
+      "activities_7d": 3,
+      "activities_28d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 79,
         "outdoor": 79
@@ -439,6 +440,61 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i154592737",
+      "date": "2026-06-05T07:27:50",
+      "type": "VirtualRide",
+      "name": "TR-TC-01",
+      "duration_hours": 0.53,
+      "distance_km": 17.48,
+      "tss": 45,
+      "intensity_factor": 92.083336,
+      "avg_power": 195,
+      "normalized_power": 221,
+      "avg_hr": 152,
+      "max_hr": 179,
+      "avg_cadence": 90.10141,
+      "avg_speed": 32.9,
+      "max_speed": 41.6,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 373.4,
+      "calories": 373,
+      "carbs_used": 116,
+      "carbs_ingested": null,
+      "variability_index": 1.1333333,
+      "decoupling": -1.9195818,
+      "efficiency_factor": 1.4539474,
+      "hrrc": 27,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 324,
+          "z2_time": 398,
+          "z3_time": 132,
+          "z4_time": 251,
+          "z5_time": 110,
+          "z6_time": 193,
+          "z7_time": 504
+        },
+        "power_zones": {
+          "z1_time": 1063,
+          "z2_time": 39,
+          "z3_time": 21,
+          "z4_time": 49,
+          "z5_time": 5,
+          "z6_time": 65,
+          "z7_time": 670
+        }
+      },
+      "has_intervals": true,
+      "description": "trainerday.com"
+    },
     {
       "id": "i154317317",
       "date": "2026-06-03T08:49:37",
@@ -827,18 +883,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 108420476,
-      "date": "2026-06-05",
-      "name": "RECOVERY",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 14,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "description": "Recovery rides are all about recovery If you take them easy enough many people get more recovery with a little blood in their legs than by sitting on the couch. If you cant do them easy enough take the day off. In order to get stronger you need to rest.  During Zone 1 recovery rides stick to a pace of 45-55% FTP and no harder. Recovery rides become more important the more you ride as they are crucial to resting and recovering your fitness in the middle of a training block.  You should never do three hard days in a row except in special circumstances such as during a peak training block. And thats where recovery rides come in. Recovery rides should be completed once or twice per week depending on how many days you might take off the bike.  During a peak training block three hard interval sessions a week can be too much and youll not only be failing to gain fitness but you might also be losing it. Coach Jack and most top coaches agree that going too hard too often means that you will never be going hard at all  youre simply over-trained.Best for IndoorMost people have a hard time staying in Zone 1 outdoors. You need flat distraction-free route to do this outdoors. Perfect for indoors and watching Netflix or Youtube.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765607_32\n\n- Warmup 7m 40% \n\n\n2x\n- Warmup 3m 60% \n\n\n- 1m 43% \n- 2m 53% \n- 2m 56% \n- 4m 58% \n- 1m 43% \n- 2m 61% \n- Cooldown 5m 40%"
-    },
-    {
       "id": 114342530,
       "date": "2026-06-05",
       "name": "TR-TC-01",
@@ -864,18 +908,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 2,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 1
   },
   "weekly_summary": {
-    "total_training_hours": 1.48,
-    "total_training_formatted": "1h28m",
-    "total_tss": 125,
-    "activities_count": 2,
+    "total_training_hours": 2.01,
+    "total_training_formatted": "2h",
+    "total_tss": 170,
+    "activities_count": 3,
     "avg_hrv": 54.9,
     "avg_resting_hr": 53.8
   },
