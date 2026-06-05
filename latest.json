@@ -72,7 +72,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-05T11:50:08.922492",
+    "last_updated": "2026-06-05T14:48:24.718887",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -93,20 +93,20 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 54.8,
-        "delta_pct": null
+        "status": "green",
+        "value": 53.0,
+        "baseline_7d": 54.9,
+        "delta_pct": -3.5
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 54.4,
+        "baseline_7d": 53.8,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 6.75,
         "quality": null
       },
       "acwr": {
@@ -119,10 +119,10 @@
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 0,
+      "green": 1,
+      "amber": 1,
       "red": 1,
-      "unavailable": 4
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Recovery",
@@ -158,10 +158,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 22.08,
-      "atl": 21.69,
-      "tsb": 0.39,
-      "ramp_rate": 1.91,
+      "ctl": 21.0,
+      "atl": 16.27,
+      "tsb": 4.73,
+      "ramp_rate": 0.83,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -198,13 +198,13 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 85.883,
-      "resting_hr": 60,
-      "hrv": null,
+      "weight_kg": 84.327,
+      "resting_hr": 51,
+      "hrv": 53.0,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_hours": 6.75,
+      "sleep_formatted": "6h45m",
+      "sleep_score": 81.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -216,7 +216,7 @@
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
-      "baevsky_si": null,
+      "baevsky_si": 4.92,
       "lactate": null,
       "respiration": null,
       "body_fat_pct": null,
@@ -229,16 +229,16 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 80.0
     }
   },
   "derived_metrics": {
     "recovery_index": null,
-    "hrv_baseline_7d": 54.8,
-    "rhr_baseline_7d": 54.4,
-    "hrv_baseline_28d": 53.5,
-    "rhr_baseline_28d": 53.9,
-    "latest_hrv": null,
+    "hrv_baseline_7d": 54.9,
+    "rhr_baseline_7d": 53.8,
+    "hrv_baseline_28d": 53.6,
+    "rhr_baseline_28d": 53.7,
+    "latest_hrv": 53.0,
     "latest_rhr": null,
     "acwr": 1.52,
     "acwr_interpretation": "danger",
@@ -385,11 +385,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.63,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 1.85,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -425,13 +425,13 @@
     "p_max": 830,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-05T11:50:08.920870",
+    "calculation_timestamp": "2026-06-05T14:48:24.717820",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 5,
+      "hrv_data_points": 7,
+      "rhr_data_points": 6,
       "activities_7d": 2,
       "activities_28d": 6,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 79,
         "outdoor": 79
@@ -748,16 +748,16 @@
     },
     {
       "date": "2026-06-04",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": 54.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 6.02,
-      "sleep_formatted": "6h1m",
+      "weight_kg": 84.327,
+      "resting_hr": 51,
+      "hrv_rmssd": 56.0,
+      "hrv_sdnn": 58.0,
+      "sleep_hours": 5.73,
+      "sleep_formatted": "5h43m",
       "sleep_quality": null,
-      "sleep_score": 70.0,
+      "sleep_score": 74.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 55.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -766,16 +766,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 95.947365,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": 3.32,
       "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
+      "respiration": 14.680851,
+      "body_fat_pct": 17.847,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 4110,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -783,18 +783,18 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 79.0
+      "readiness": 84.0
     },
     {
       "date": "2026-06-05",
       "weight_kg": null,
       "resting_hr": null,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 53.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.75,
+      "sleep_formatted": "6h45m",
       "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 81.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -809,7 +809,7 @@
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
-      "baevsky_si": null,
+      "baevsky_si": 4.92,
       "lactate": null,
       "respiration": null,
       "body_fat_pct": null,
@@ -822,7 +822,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 80.0
     }
   ],
   "planned_workouts": [
@@ -839,6 +839,18 @@
       "description": "Recovery rides are all about recovery If you take them easy enough many people get more recovery with a little blood in their legs than by sitting on the couch. If you cant do them easy enough take the day off. In order to get stronger you need to rest.  During Zone 1 recovery rides stick to a pace of 45-55% FTP and no harder. Recovery rides become more important the more you ride as they are crucial to resting and recovering your fitness in the middle of a training block.  You should never do three hard days in a row except in special circumstances such as during a peak training block. And thats where recovery rides come in. Recovery rides should be completed once or twice per week depending on how many days you might take off the bike.  During a peak training block three hard interval sessions a week can be too much and youll not only be failing to gain fitness but you might also be losing it. Coach Jack and most top coaches agree that going too hard too often means that you will never be going hard at all  youre simply over-trained.Best for IndoorMost people have a hard time staying in Zone 1 outdoors. You need flat distraction-free route to do this outdoors. Perfect for indoors and watching Netflix or Youtube.\n\nhttps://app.trainerday.com/plans/vaughns-progressive-sweet-spot-plan?workoutParam=-1777996765607_32\n\n- Warmup 7m 40% \n\n\n2x\n- Warmup 3m 60% \n\n\n- 1m 43% \n- 2m 53% \n- 2m 56% \n- 4m 58% \n- 1m 43% \n- 2m 61% \n- Cooldown 5m 40%"
     },
     {
+      "id": 114342530,
+      "date": "2026-06-05",
+      "name": "TR-TC-01",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 37,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": "2m @120W | 30s @216W | 30s @240W | 2m @120W | 1m @252W | 15s @120W | 45s @264W | 15s @120W | 30s @288W | 30s @120W | 30s @288W | 15s @120W | 45s @264W | 15s @120W | 1m @252W | 3m @120W | 21s @264W | 3 \u00d7 2\u00d712s @120W / 21s rec | 12s @120W | 21s @264W | 3m @120W | 5\u00d71m @264W / 15s rec | 2m33s @120W",
+      "description": "TR TC 01\n\nhttps://app.trainerday.com/workouts/tr-tc-01-2\n\n- 2m 50% \n- 30s 90% \n- 30s 100% \n- 2m 50% \n- 1m 105% \n- 15s 50% \n- 45s 110% \n- 15s 50% \n- 30s 120% \n- 30s 50% \n- 30s 120% \n- 15s 50% \n- 45s 110% \n- 15s 50% \n- 1m 105% \n- 3m 50% \n- 21s 110% \n\n\n2x\n- 12s 50% \n- 21s 120% \n\n\n\n\n2x\n- 12s 50% \n- 21s 130% \n\n\n\n\n2x\n- 12s 50% \n- 21s 120% \n\n\n- 12s 50% \n- 21s 110% \n- 3m 50% \n\n\n5x\n- 1m 110% \n- 15s 50% \n\n\n- 2m 33s 50%"
+    },
+    {
       "id": 108420477,
       "date": "2026-06-06",
       "name": "Collywobbles 15 + CAD",
@@ -852,9 +864,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 3,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 2
@@ -864,8 +876,8 @@
     "total_training_formatted": "1h28m",
     "total_tss": 125,
     "activities_count": 2,
-    "avg_hrv": 54.8,
-    "avg_resting_hr": 54.4
+    "avg_hrv": 54.9,
+    "avg_resting_hr": 53.8
   },
   "race_calendar": {
     "next_race": null,
