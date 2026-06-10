@@ -66,13 +66,13 @@
     "quick_stats": {
       "total_training_hours": 0.53,
       "total_training_formatted": "31m",
-      "total_activities": 1,
+      "total_activities": 2,
       "total_tss": 45
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-10T12:19:09.191503",
+    "last_updated": "2026-06-10T18:43:09.824678",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -119,7 +119,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 8.7
+        "value": 4.3
       }
     },
     "signal_summary": {
@@ -150,8 +150,14 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.53,
-    "total_activities": 1,
+    "total_activities": 2,
     "by_activity_type": {
+      "Unknown": {
+        "duration_decimal_hours": 0.0,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
+      },
       "VirtualRide": {
         "duration_decimal_hours": 0.53,
         "count": 1,
@@ -162,10 +168,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.59,
-      "atl": 10.9,
-      "tsb": 8.69,
-      "ramp_rate": -2.44,
+      "ctl": 20.53,
+      "atl": 16.22,
+      "tsb": 4.31,
+      "ramp_rate": -1.5,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -357,15 +363,16 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.25,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 4,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-06-04",
         "2026-06-05",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-10"
       ],
       "completed_dates": [
         "2026-06-05"
@@ -385,11 +392,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 0.67,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -425,13 +432,13 @@
     "p_max": 827,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-10T12:19:09.190171",
+    "calculation_timestamp": "2026-06-10T18:43:09.823356",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 5,
-      "activities_7d": 1,
-      "activities_28d": 6,
-      "planned_workouts_7d": 3,
+      "activities_7d": 2,
+      "activities_28d": 7,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 84,
         "outdoor": 84
@@ -439,6 +446,41 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "18866281136",
+      "date": "2026-06-10T08:08:21",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "i154592737",
       "date": "2026-06-05T07:27:50",
@@ -770,11 +812,24 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 115382369,
+      "date": "2026-06-10",
+      "name": "Anaerobic Capacity into Sweetspot #1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 34,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": "1m @108W | 1m @144W | 1m @180W | 30s @120W | 1m @194W | 30s @120W | 1m @228W | 30s @120W | 1m @261W | 1m30s @120W | 5m @180W | 2m @120W | 3\u00d71m @300W / 1m rec | 5m @194W | 1m30s @144W | 1m30s @108W",
+      "description": "Sweetspot intervals are generally considered to be comfortable efforts completed over longer durations.     In todays workout we finish the session with a steady 5min Sweetspot interval. However with the effort preceded by a series of 1min Anaerobic Capacity efforts it may not be as comfortable as expected\n\nhttps://app.trainerday.com/workouts/anaerobic-capacity-into-sweetspot-1\n\n- 1m 45% \n- 1m 60% \n- 1m 75% \n- 30s 50% \n- 1m 81% \n- 30s 50% \n- 1m 95% \n- 30s 50% \n- 1m 109% \n- 1m 30s 50% \n- 5m 75% \n- 2m 50% \n\n\n3x\n- 1m 125% \n- 1m 65% \n\n\n- 5m 81% \n- 1m 30s 60% \n- 1m 30s 45%"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
@@ -783,7 +838,7 @@
     "total_training_hours": 0.53,
     "total_training_formatted": "31m",
     "total_tss": 45,
-    "activities_count": 1,
+    "activities_count": 2,
     "avg_hrv": 47.2,
     "avg_resting_hr": 51.8
   },
