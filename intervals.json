@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:53:22.522592",
+  "generated_at": "2026-10-17T20:08:44.796315",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -329,6 +329,60 @@
           "zone": 1,
           "training_load": 0.13040124,
           "decoupling": -12.402056
+        }
+      ]
+    },
+    {
+      "activity_id": "i198438843",
+      "date": "2026-10-17",
+      "type": "Ride",
+      "name": "Ride",
+      "interval_summary": [
+        "1x 6m27s 101bpm",
+        "2x 5m23s 106bpm",
+        "1x 26m41s 95bpm",
+        "1x 3m2s 115bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "387s@101bpm",
+          "duration_secs": 387,
+          "avg_hr": 101,
+          "max_hr": 116,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "323s@106bpm",
+          "duration_secs": 322,
+          "avg_hr": 103,
+          "max_hr": 122,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1601s@95bpm",
+          "duration_secs": 1601,
+          "avg_hr": 95,
+          "max_hr": 109,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "323s@106bpm",
+          "duration_secs": 323,
+          "avg_hr": 108,
+          "max_hr": 119,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "182s@115bpm",
+          "duration_secs": 182,
+          "avg_hr": 115,
+          "max_hr": 132,
+          "zone": 1
         }
       ]
     }
