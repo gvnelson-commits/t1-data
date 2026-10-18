@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:57:18.588662",
+  "generated_at": "2026-10-18T21:19:49.846367",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -483,6 +483,67 @@
           "type": "WORK",
           "label": "1s@6.67mps",
           "duration_secs": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i198788135",
+      "date": "2026-10-18",
+      "type": "VirtualRide",
+      "name": "Ride",
+      "interval_summary": [
+        "5x 4m21s 135bpm",
+        "1x 2m28s 133bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "261s@135bpm",
+          "duration_secs": 260
+        },
+        {
+          "type": "WORK",
+          "label": "261s@135bpm",
+          "duration_secs": 260,
+          "avg_hr": 174,
+          "max_hr": 180,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "261s@135bpm",
+          "duration_secs": 261,
+          "avg_hr": 163,
+          "max_hr": 180,
+          "zone": 5
+        },
+        {
+          "type": "WORK",
+          "label": "261s@135bpm",
+          "duration_secs": 261,
+          "avg_hr": 164,
+          "max_hr": 179,
+          "zone": 5
+        },
+        {
+          "type": "WORK",
+          "label": "261s@135bpm",
+          "duration_secs": 261,
+          "avg_hr": 172,
+          "max_hr": 180,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "148s@133bpm",
+          "duration_secs": 148,
+          "avg_hr": 133,
+          "max_hr": 146,
+          "zone": 2
         },
         {
           "type": "RECOVERY",
