@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:41:24.111816",
+  "generated_at": "2026-10-18T18:57:18.588662",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -383,6 +383,110 @@
           "avg_hr": 115,
           "max_hr": 132,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i198747229",
+      "date": "2026-10-18",
+      "type": "VirtualRide",
+      "name": "Ride",
+      "interval_summary": [
+        "1x 2m10s 136bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "130s@136bpm",
+          "duration_secs": 130,
+          "avg_hr": 136,
+          "max_hr": 136,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i198747218",
+      "date": "2026-10-18",
+      "type": "VirtualRide",
+      "name": "Ride",
+      "interval_summary": [
+        "3x 3m23s 103bpm",
+        "1x 1m45s 155bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "203s@103bpm",
+          "duration_secs": 203
+        },
+        {
+          "type": "WORK",
+          "label": "203s@103bpm",
+          "duration_secs": 203,
+          "avg_hr": 155,
+          "max_hr": 166,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "203s@103bpm",
+          "duration_secs": 204,
+          "avg_hr": 155,
+          "max_hr": 162,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "105s@155bpm",
+          "duration_secs": 105,
+          "avg_hr": 155,
+          "max_hr": 161,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 142,
+          "max_hr": 142,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i198747204",
+      "date": "2026-10-18",
+      "type": "VirtualRide",
+      "name": "Ride",
+      "interval_summary": [
+        "2x 4m1s 169bpm",
+        "1x 1s "
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "241s@169bpm",
+          "duration_secs": 241,
+          "avg_hr": 167,
+          "max_hr": 172,
+          "zone": 6
+        },
+        {
+          "type": "WORK",
+          "label": "241s@169bpm",
+          "duration_secs": 241,
+          "avg_hr": 171,
+          "max_hr": 175,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "1s@6.67mps",
+          "duration_secs": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1
         }
       ]
     }
