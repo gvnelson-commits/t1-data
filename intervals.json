@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:23:57.062339",
+  "generated_at": "2026-10-25T19:51:34.320316",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1206,6 +1206,44 @@
           "zone": 1,
           "training_load": 0.42444253,
           "decoupling": 8.94986
+        }
+      ]
+    },
+    {
+      "activity_id": "i201623338",
+      "date": "2026-10-25",
+      "type": "VirtualRide",
+      "name": "ROUVY - La Vuelta 2022 | Stage 2 - Scherpenzeel | NL",
+      "interval_summary": [
+        "1x 43m25s 172w",
+        "1x 2m9s 51w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2605s@172w92rpm",
+          "duration_secs": 2605,
+          "avg_power": 172,
+          "max_power": 623,
+          "avg_hr": 150,
+          "max_hr": 179,
+          "avg_cadence": 91.9331,
+          "zone": 2,
+          "training_load": 48.754555,
+          "decoupling": 4.6897182
+        },
+        {
+          "type": "WORK",
+          "label": "129s@51w84rpm",
+          "duration_secs": 129,
+          "avg_power": 51,
+          "max_power": 154,
+          "avg_hr": 123,
+          "max_hr": 135,
+          "avg_cadence": 83.91209,
+          "zone": 1,
+          "training_load": 0.36598766,
+          "decoupling": 8.733874
         }
       ]
     }
