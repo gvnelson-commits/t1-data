@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:58:04.925076",
+  "generated_at": "2026-11-06T19:54:19.082741",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -844,6 +844,25 @@
           "zone": 1,
           "training_load": 0.0016222994,
           "decoupling": "NaN"
+        }
+      ]
+    },
+    {
+      "activity_id": "i206625164",
+      "date": "2026-11-06",
+      "type": "VirtualRide",
+      "name": "Ride",
+      "interval_summary": [
+        "1x 32m6s 136bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1926s@136bpm",
+          "duration_secs": 1926,
+          "avg_hr": 136,
+          "max_hr": 136,
+          "zone": 2
         }
       ]
     }
