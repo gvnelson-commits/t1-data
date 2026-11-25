@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:07:47.167984",
+  "generated_at": "2026-11-25T21:40:35.451113",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -2005,6 +2005,80 @@
           "zone": 1,
           "training_load": 3.8587744,
           "decoupling": -29.37744
+        }
+      ]
+    },
+    {
+      "activity_id": "i214556497",
+      "date": "2026-11-25",
+      "type": "VirtualRide",
+      "name": "Zwift - Climb Portal: Pas de Peyrol/Puy Mary at 100% Elevation in France",
+      "interval_summary": [
+        "1x 10m41s 227w",
+        "1x 30m20s 237w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 575,
+          "avg_power": 158,
+          "max_power": 273,
+          "avg_hr": 123,
+          "max_hr": 150,
+          "avg_cadence": 82.44174,
+          "zone": 1,
+          "training_load": 8.122396,
+          "decoupling": -28.564472
+        },
+        {
+          "type": "WORK",
+          "label": "641s@227w92rpm",
+          "duration_secs": 641,
+          "avg_power": 227,
+          "max_power": 304,
+          "avg_hr": 158,
+          "max_hr": 164,
+          "avg_cadence": 92.19969,
+          "zone": 4,
+          "training_load": 15.68364,
+          "decoupling": 4.1969404
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6,
+          "avg_power": 189,
+          "max_power": 204,
+          "avg_hr": 163,
+          "max_hr": 163,
+          "avg_cadence": 96.0,
+          "zone": 2,
+          "training_load": 0.13061005,
+          "decoupling": -7.29927
+        },
+        {
+          "type": "WORK",
+          "label": "1820s@237w87rpm",
+          "duration_secs": 1820,
+          "avg_power": 237,
+          "max_power": 324,
+          "avg_hr": 169,
+          "max_hr": 177,
+          "avg_cadence": 86.62198,
+          "zone": 4,
+          "training_load": 48.099785,
+          "decoupling": -3.25326
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 697,
+          "avg_power": 126,
+          "max_power": 269,
+          "avg_hr": 138,
+          "max_hr": 175,
+          "avg_cadence": 85.901,
+          "zone": 1,
+          "training_load": 5.9717517,
+          "decoupling": -12.371392
         }
       ]
     }
